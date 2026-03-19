@@ -88,9 +88,7 @@ export default function AboutPage() {
                 Sripalli, Barddhaman,<br/>
                 BARDHAMAN, WEST BENGAL, 713103<br/>
                 India</p>
-                <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:legal@nakamaai.co">legal@nakamaai.co</a></p>
-                <p><strong>Support:</strong> <a href="mailto:support@nakamaai.co">support@nakamaai.co</a></p>
-                <p><strong>General Inquiries:</strong> <a href="mailto:hello@nakamaai.co">hello@nakamaai.co</a></p>
+                <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a></p>
               </div>
             </div>
           </div>

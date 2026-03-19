@@ -52,6 +52,7 @@ export default function Navbar({ alwaysScrolled = false }) {
           <span></span>
         </button>
       </div>
+      {menuOpen && <div className="nav-overlay active" onClick={closeMenu} />}
     </nav>
   );
 }

@@ -30,7 +30,7 @@ export default function ContactPage() {
       if (!res.ok) throw new Error();
       setSubmitted(true);
     } catch (_) {
-      setError('Something went wrong. Please try emailing us directly at hello@nakamaai.co.');
+      setError('Something went wrong. Please try emailing us directly at contact@nakamaai.co.');
     }
     setLoading(false);
   };
@@ -94,11 +94,7 @@ export default function ContactPage() {
             <h2 style={{ marginTop: 48 }}>Direct Contacts</h2>
 
             <div className="contact-box">
-              <p><strong>General:</strong> <a href="mailto:hello@nakamaai.co">hello@nakamaai.co</a></p>
-              <p><strong>Support:</strong> <a href="mailto:support@nakamaai.co">support@nakamaai.co</a></p>
-              <p><strong>Legal &amp; Billing:</strong> <a href="mailto:legal@nakamaai.co">legal@nakamaai.co</a></p>
-              <p><strong>Privacy:</strong> <a href="mailto:privacy@nakamaai.co">privacy@nakamaai.co</a></p>
-              <p><strong>Abuse Reports:</strong> <a href="mailto:abuse@nakamaai.co">abuse@nakamaai.co</a></p>
+              <p><strong>Email:</strong> <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a></p>
             </div>
 
             <h2>Company Address</h2>

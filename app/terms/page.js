@@ -56,8 +56,7 @@ export default function TermsPage() {
             <h2>12. Contact</h2>
             <div className="contact-box">
               <p>If you have questions about these Terms, reach out to us:</p>
-              <p style={{ marginTop: 12 }}><strong>Legal:</strong> <a href="mailto:legal@nakamaai.co">legal@nakamaai.co</a></p>
-              <p><strong>General:</strong> <a href="mailto:hello@nakamaai.co">hello@nakamaai.co</a></p>
+              <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a></p>
             </div>
 
           </div>

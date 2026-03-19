@@ -84,17 +84,19 @@ export default function Antigravity() {
   const isHoveredRef = useRef(false);
   const burstRef = useRef(0);
 
+  const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+
   propsRef.current = {
     color: '#E8825E',
     colorTwo: '#F4A882',
-    speed: 1,
-    ringCount: 6,
+    speed: isMobile ? 0.7 : 1,
+    ringCount: isMobile ? 4 : 6,
     attenuation: 10,
-    lineThickness: 2,
-    baseRadius: 0.35,
+    lineThickness: isMobile ? 1.5 : 2,
+    baseRadius: isMobile ? 0.3 : 0.35,
     radiusStep: 0.1,
     scaleRate: 0.1,
-    opacity: 1,
+    opacity: isMobile ? 0.8 : 1,
     blur: 0,
     noiseAmount: 0.06,
     rotation: 0,
@@ -168,7 +170,7 @@ export default function Antigravity() {
     const resize = () => {
       const width = mount.clientWidth;
       const height = mount.clientHeight;
-      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      const dpr = Math.min(window.devicePixelRatio || 1, window.innerWidth < 768 ? 1.5 : 2);
 
       renderer.setSize(width, height);
       renderer.setPixelRatio(dpr);

@@ -37,7 +37,7 @@ export default function AcceptableUsePage() {
             <p>We reserve the right to investigate suspected violations. Depending on the severity, this may result in a warning, temporary suspension of access, or permanent termination of your account without refund. We may also report violations to relevant law enforcement authorities where required by law.</p>
 
             <h2>6. Reporting Violations</h2>
-            <p>If you believe someone is using our services in violation of this policy, please report it to <a href="mailto:abuse@nakamaai.co">abuse@nakamaai.co</a> with as much detail as possible.</p>
+            <p>If you believe someone is using our services in violation of this policy, please report it to <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a> with as much detail as possible.</p>
 
             <h2>7. Changes to This Policy</h2>
             <p>We may update this policy from time to time. Changes will be reflected by the updated effective date at the top of this page.</p>
@@ -45,8 +45,7 @@ export default function AcceptableUsePage() {
             <h2>8. Contact</h2>
             <div className="contact-box">
               <p>For questions about this policy:</p>
-              <p style={{ marginTop: 12 }}><strong>Abuse Reports:</strong> <a href="mailto:abuse@nakamaai.co">abuse@nakamaai.co</a></p>
-              <p><strong>Legal:</strong> <a href="mailto:legal@nakamaai.co">legal@nakamaai.co</a></p>
+              <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a></p>
             </div>
 
           </div>

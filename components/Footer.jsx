@@ -84,7 +84,7 @@ export default function Footer({ simple = false }) {
         </div>
         <div className="footer-bottom">
           <p>&copy; 2024&ndash;2026 Nakama AI. All rights reserved.</p>
-          <p className="footer-legal-note"><a href="mailto:legal@nakamaai.co">legal@nakamaai.co</a></p>
+          <p className="footer-legal-note"><a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a></p>
         </div>
       </div>
     </footer>

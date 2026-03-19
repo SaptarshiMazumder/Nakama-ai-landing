@@ -1732,6 +1732,22 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
 }
 
+/* ---- Mobile Nav Overlay ---- */
+.nav-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 998;
+    opacity: 0;
+    transition: opacity var(--transition);
+}
+
+.nav-overlay.active {
+    display: block;
+    opacity: 1;
+}
+
 /* ---- Responsive ---- */
 @media (max-width: 1360px) {
     .products-grid-three {
@@ -1774,6 +1790,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+    /* ---- Mobile Nav ---- */
     .nav-links {
         position: fixed;
         top: 0;
@@ -1781,10 +1798,11 @@ h1, h2, h3, h4, h5, h6 {
         width: 75%;
         max-width: 320px;
         height: 100vh;
+        height: 100dvh;
         background: var(--bg-card);
         flex-direction: column;
         justify-content: center;
-        gap: 24px;
+        gap: 32px;
         padding: 40px;
         border-left: 1px solid var(--border);
         transition: right var(--transition);
@@ -1795,26 +1813,82 @@ h1, h2, h3, h4, h5, h6 {
         right: 0;
     }
 
+    .nav-link {
+        font-size: 1.1rem;
+    }
+
+    .nav-btn {
+        padding: 14px 28px;
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+    }
+
     .nav-toggle {
         display: flex;
         z-index: 1001;
+    }
+
+    /* ---- Mobile Section Spacing ---- */
+    .products-section,
+    .industries-section,
+    .features-section,
+    .faq-section,
+    .cta-section,
+    .waitlist-section {
+        padding: 64px 0;
+    }
+
+    .section-header {
+        margin-bottom: 40px;
+    }
+
+    /* ---- Mobile Hero ---- */
+    .hero {
+        padding: 100px 0 60px;
+        min-height: auto;
     }
 
     .hero-title {
         font-size: 2.5rem;
     }
 
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-actions {
+        margin-bottom: 32px;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
     .hero-stats {
-        flex-direction: column;
-        gap: 16px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .stat {
+        text-align: center;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
     }
 
     .stat-divider {
-        width: 40px;
-        height: 1px;
+        display: none;
     }
 
+    /* ---- Mobile Grids ---- */
     .products-grid,
+    .products-grid-three,
     .industries-grid,
     .features-grid,
     .steps-grid {
@@ -1829,24 +1903,105 @@ h1, h2, h3, h4, h5, h6 {
         display: none;
     }
 
+    /* ---- Mobile Cards ---- */
+    .product-card {
+        padding: 36px 28px;
+    }
+
+    .studio-product-card {
+        min-height: auto;
+    }
+
+    .industry-card {
+        padding: 24px 20px;
+    }
+
+    .feature-card {
+        padding: 28px 24px;
+    }
+
+    /* ---- Mobile Forms ---- */
     .form-row {
         grid-template-columns: 1fr;
     }
 
     .waitlist-card {
-        padding: 40px 24px;
+        padding: 36px 20px;
+    }
+
+    .waitlist-content h2 {
+        font-size: 1.75rem;
+    }
+
+    /* ---- Mobile FAQ ---- */
+    .faq-question {
+        padding: 16px 18px;
+        font-size: 0.93rem;
+        gap: 12px;
+    }
+
+    .faq-answer p {
+        padding: 0 18px 16px;
+        font-size: 0.9rem;
+    }
+
+    /* ---- Mobile CTA ---- */
+    .cta-content h2 {
+        font-size: 1.75rem;
+    }
+
+    .cta-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* ---- Mobile Footer ---- */
+    .footer {
+        padding: 48px 0 32px;
     }
 
     .footer-grid {
         grid-template-columns: 1fr 1fr;
+        gap: 32px;
     }
 
     .footer-brand {
         grid-column: span 2;
     }
 
+    .footer-social a {
+        width: 44px;
+        height: 44px;
+    }
+
+    /* ---- Mobile About ---- */
+    .about-hero {
+        padding: 120px 0 48px;
+    }
+
+    .about-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .about-hero p {
+        font-size: 1rem;
+    }
+
+    .about-hero p + p {
+        margin-top: 12px;
+    }
+
+    .about-section {
+        padding: 48px 0;
+    }
+
     .about-grid {
         grid-template-columns: 1fr;
+        gap: 48px;
+    }
+
+    .about-text h2 {
+        font-size: 1.6rem;
     }
 
     .values-grid,
@@ -1854,32 +2009,86 @@ h1, h2, h3, h4, h5, h6 {
         grid-template-columns: 1fr;
     }
 
+    /* ---- Mobile Legal ---- */
+    .legal-page {
+        padding: 100px 0 48px;
+    }
+
+    .legal-header {
+        margin-bottom: 32px;
+        padding-bottom: 24px;
+    }
+
+    .legal-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .legal-content h2 {
+        font-size: 1.2rem;
+        margin-top: 32px;
+    }
+
+    /* ---- Mobile Product Pages ---- */
+    .product-page-hero {
+        padding: 100px 0 40px;
+    }
+
+    .product-page-hero h1 {
+        font-size: 2rem;
+    }
+
+    .product-page-section {
+        padding: 48px 0;
+    }
+
+    /* ---- Mobile Cookie Banner ---- */
     .cookie-content {
         flex-direction: column;
         text-align: center;
     }
 
+    .cookie-actions {
+        width: 100%;
+    }
+
+    .cookie-actions .btn {
+        flex: 1;
+        justify-content: center;
+    }
+
+    /* ---- Mobile Misc ---- */
     .scroll-indicator {
         display: none;
+    }
+
+    .container {
+        padding: 0 16px;
     }
 }
 
 @media (max-width: 480px) {
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.85rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.93rem;
     }
 
     .section-title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
     .product-card {
-        padding: 32px 24px;
+        padding: 28px 20px;
     }
 
     .studio-product-card {
-        padding: 28px 22px;
-        min-height: auto;
+        padding: 24px 18px;
+    }
+
+    .product-name {
+        font-size: 1.4rem;
     }
 
     .footer-grid {
@@ -1888,5 +2097,26 @@ h1, h2, h3, h4, h5, h6 {
 
     .footer-brand {
         grid-column: span 1;
+    }
+
+    .about-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .legal-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .waitlist-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+
+    .btn-product {
+        padding: 14px 20px;
     }
 }

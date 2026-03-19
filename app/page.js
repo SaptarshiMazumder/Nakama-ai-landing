@@ -438,7 +438,7 @@ function CTASection() {
           <p>Be among the first to experience AI teammates built for sales, marketing, and creative work.</p>
           <div className="cta-actions">
             <Link href="#waitlist" className="btn btn-primary">Join the Waitlist</Link>
-            <a href="mailto:hello@nakamaai.co" className="btn btn-secondary">Contact Sales</a>
+            <a href="mailto:contact@nakamaai.co" className="btn btn-secondary">Contact Sales</a>
           </div>
         </div>
       </div>

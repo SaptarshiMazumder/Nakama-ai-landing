@@ -28,13 +28,13 @@ export default function RefundPage() {
             <p>Because our services are digital and access is granted immediately upon payment, we do not offer refunds as a standard practice. You are free to cancel at any time, but payments already processed will not be refunded.</p>
 
             <h2>3. Cancellations</h2>
-            <p>You can cancel a subscription at any time by contacting us at <a href="mailto:support@nakamaai.co">support@nakamaai.co</a>. After cancellation, your access continues until the end of the current billing period. You will not be charged for any subsequent periods.</p>
+            <p>You can cancel a subscription at any time by contacting us at <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a>. After cancellation, your access continues until the end of the current billing period. You will not be charged for any subsequent periods.</p>
 
             <h2>4. Exceptions</h2>
             <p>We will issue a refund if you were charged in error, charged an incorrect amount, charged twice due to a technical issue, or if an unauthorized charge occurred on your account. Refund requests for these situations must be submitted within 14 days of the charge. Once approved, refunds are processed within 5 to 10 business days depending on your payment method and billing platform.</p>
 
             <h2>5. How to Request a Refund</h2>
-            <p>Email us at <a href="mailto:support@nakamaai.co">support@nakamaai.co</a> with your name, the email associated with your account, the date and amount of the charge, and a brief description of the issue. We will respond within 2 business days.</p>
+            <p>Email us at <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a> with your name, the email associated with your account, the date and amount of the charge, and a brief description of the issue. We will respond within 2 business days.</p>
 
             <h2>6. Changes to This Policy</h2>
             <p>We may update this policy from time to time. Changes will be reflected by the updated effective date at the top of this page.</p>
@@ -42,8 +42,7 @@ export default function RefundPage() {
             <h2>7. Contact</h2>
             <div className="contact-box">
               <p>For refund or billing questions:</p>
-              <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:support@nakamaai.co">support@nakamaai.co</a></p>
-              <p><strong>General:</strong> <a href="mailto:hello@nakamaai.co">hello@nakamaai.co</a></p>
+              <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a></p>
             </div>
 
           </div>

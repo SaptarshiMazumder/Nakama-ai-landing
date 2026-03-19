@@ -44,7 +44,7 @@ export default function CookiesPage() {
             <h2>7. Contact</h2>
             <div className="contact-box">
               <p>For questions about cookies or how we use them:</p>
-              <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:privacy@nakamaai.co">privacy@nakamaai.co</a></p>
+              <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a></p>
             </div>
 
           </div>

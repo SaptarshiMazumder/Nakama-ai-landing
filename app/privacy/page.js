@@ -46,7 +46,7 @@ export default function PrivacyPage() {
             <p>Our services are operated from India. Your data may be processed in other countries where our providers operate, including the United States via Google&apos;s Gemini API. We take steps to ensure such transfers comply with applicable data protection requirements.</p>
 
             <h2>8. Your Rights</h2>
-            <p>You have the right to access, correct, delete, or export the personal data we hold about you, and to object to or restrict certain types of processing. To make a request, email us at <a href="mailto:privacy@nakamaai.co">privacy@nakamaai.co</a> and we will respond within 30 days.</p>
+            <p>You have the right to access, correct, delete, or export the personal data we hold about you, and to object to or restrict certain types of processing. To make a request, email us at <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a> and we will respond within 30 days.</p>
 
             <h2>9. Children</h2>
             <p>Our services are not directed to anyone under 18. We do not knowingly collect data from children.</p>
@@ -57,8 +57,7 @@ export default function PrivacyPage() {
             <h2>11. Contact</h2>
             <div className="contact-box">
               <p>For any privacy questions or data requests, contact us at:</p>
-              <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:privacy@nakamaai.co">privacy@nakamaai.co</a></p>
-              <p><strong>General:</strong> <a href="mailto:hello@nakamaai.co">hello@nakamaai.co</a></p>
+              <p style={{ marginTop: 12 }}><strong>Email:</strong> <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a></p>
               <p style={{ marginTop: 8 }}><strong>Address:</strong> Indrakanan, Ward No-12, Kanainatsal, Sripalli, Barddhaman, West Bengal, 713103, India</p>
             </div>
 

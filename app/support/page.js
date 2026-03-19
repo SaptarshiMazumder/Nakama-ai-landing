@@ -31,7 +31,7 @@ export default function SupportPage() {
       if (!res.ok) throw new Error();
       setSubmitted(true);
     } catch (_) {
-      setError('Something went wrong. Please email us directly at support@nakamaai.co.');
+      setError('Something went wrong. Please email us directly at contact@nakamaai.co.');
     }
     setLoading(false);
   };
@@ -93,7 +93,7 @@ export default function SupportPage() {
             )}
 
             <h2 style={{ marginTop: 48 }}>Other Contacts</h2>
-            <p>For billing questions, see our <Link href="/refund">Refund Policy</Link>. For privacy or data-related requests, email <a href="mailto:privacy@nakamaai.co">privacy@nakamaai.co</a>. For everything else, visit our <Link href="/contact">Contact page</Link>.</p>
+            <p>For billing questions, see our <Link href="/refund">Refund Policy</Link>. For privacy or data-related requests, email <a href="mailto:contact@nakamaai.co">contact@nakamaai.co</a>. For everything else, visit our <Link href="/contact">Contact page</Link>.</p>
 
           </div>
         </div>
