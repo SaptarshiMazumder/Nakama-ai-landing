@@ -52,7 +52,7 @@ export default function SupportPage() {
               <>
                 <p>Having trouble with a Nakama AI service? Fill in the form below and we&apos;ll sort it out. The more detail you include, the faster we can help.</p>
 
-                <form onSubmit={handleSubmit} style={{ marginTop: 28 }}>
+                <form className="waitlist-form" onSubmit={handleSubmit} style={{ marginTop: 28 }}>
                   <div className="form-row">
                     <div className="form-group">
                       <label htmlFor="name">Name <span>*</span></label>

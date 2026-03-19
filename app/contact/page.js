@@ -51,7 +51,7 @@ export default function ContactPage() {
               <>
                 <p>Fill in the form below and we&apos;ll get back to you within 1 to 2 business days. Or email us directly using the contacts listed below.</p>
 
-                <form onSubmit={handleSubmit} style={{ marginTop: 28 }}>
+                <form className="waitlist-form" onSubmit={handleSubmit} style={{ marginTop: 28 }}>
                   <div className="form-row">
                     <div className="form-group">
                       <label htmlFor="name">Name <span>*</span></label>
