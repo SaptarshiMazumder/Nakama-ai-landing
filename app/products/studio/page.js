@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import PettoScreenshots from '@/components/PettoScreenshots';
 
 export const metadata = {
   title: 'Nakama Studio - Product Details',
@@ -53,6 +54,7 @@ export default function NakamaStudioPage() {
                 <li>Traditional Japanese inspired art direction and finish.</li>
                 <li>Collectible-ready output for prints, gifts, and home display.</li>
               </ul>
+              <PettoScreenshots />
               <div className="studio-product-actions">
                 <Link href="/#waitlist" className="btn btn-product btn-studio-lab">Add to Waitlist</Link>
               </div>
