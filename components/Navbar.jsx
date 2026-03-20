@@ -44,7 +44,7 @@ export default function Navbar({ alwaysScrolled = false }) {
           <Link href="/#products" className="nav-link" onClick={closeMenu}>Products</Link>
           <Link href="/#features" className="nav-link" onClick={closeMenu}>Features</Link>
           <Link href="/about" className="nav-link" onClick={closeMenu}>About</Link>
-          <Link href="/#waitlist" className="nav-btn" onClick={closeMenu}>Join Waitlist</Link>
+          <Link href="/#waitlist" className="nav-btn" onClick={closeMenu}>Add to Waitlist</Link>
         </div>
         <button className={`nav-toggle ${menuOpen ? 'active' : ''}`} onClick={toggleMenu} aria-label="Toggle navigation">
           <span></span>

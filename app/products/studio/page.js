@@ -54,7 +54,7 @@ export default function NakamaStudioPage() {
                 <li>Collectible-ready output for prints, gifts, and home display.</li>
               </ul>
               <div className="studio-product-actions">
-                <Link href="/#waitlist" className="btn btn-product btn-studio-lab">Join Waitlist</Link>
+                <Link href="/#waitlist" className="btn btn-product btn-studio-lab">Add to Waitlist</Link>
               </div>
             </article>
 
@@ -73,7 +73,7 @@ export default function NakamaStudioPage() {
                 <li>Clear daily actions that make healthy consistency easier.</li>
               </ul>
               <div className="studio-product-actions">
-                <Link href="/#waitlist" className="btn btn-product btn-agents">Join Waitlist</Link>
+                <Link href="/#waitlist" className="btn btn-product btn-agents">Add to Waitlist</Link>
               </div>
             </article>
           </div>
@@ -81,7 +81,7 @@ export default function NakamaStudioPage() {
           <div className="product-page-waitlist">
             <p>Join the waitlist and get priority access to upcoming Studio launches.</p>
             <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-              <Link href="/#waitlist" className="btn btn-primary">Join Waitlist</Link>
+              <Link href="/#waitlist" className="btn btn-primary">Add to Waitlist</Link>
               <Link href="/#products" className="btn btn-secondary">Back to Products</Link>
             </div>
           </div>

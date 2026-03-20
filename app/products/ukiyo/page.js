@@ -53,7 +53,7 @@ export default function NakamaUkiyoPage() {
               <div className="product-page-waitlist">
                 <p>Join the Pet-to AI waitlist for early access.</p>
                 <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-                  <Link href="/#waitlist" className="btn btn-primary">Join Waitlist</Link>
+                  <Link href="/#waitlist" className="btn btn-primary">Add to Waitlist</Link>
                   <Link href="/products/studio" className="btn btn-secondary">Back to Studio</Link>
                 </div>
               </div>

@@ -40,7 +40,7 @@ export default function LegalNav({ links = [] }) {
           {defaultLinks.map((link) => (
             <Link key={link.href} href={link.href} className="nav-link" onClick={closeMenu}>{link.label}</Link>
           ))}
-          <Link href="/#waitlist" className="nav-btn" onClick={closeMenu}>Join Waitlist</Link>
+          <Link href="/#waitlist" className="nav-btn" onClick={closeMenu}>Add to Waitlist</Link>
         </div>
         <button className={`nav-toggle ${menuOpen ? 'active' : ''}`} onClick={toggleMenu} aria-label="Toggle navigation">
           <span></span>

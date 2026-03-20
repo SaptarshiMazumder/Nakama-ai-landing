@@ -364,7 +364,7 @@ function WaitlistSection() {
                     </span>
                   ) : (
                     <>
-                      <span className="btn-text">Join the Waitlist</span>
+                      <span className="btn-text">Add to Waitlist</span>
                       <ArrowIcon />
                     </>
                   )}
@@ -437,7 +437,7 @@ function CTASection() {
           <h2>Ready to Build the Future<br/>with <span className="text-gradient">AI?</span></h2>
           <p>Be among the first to experience AI teammates built for sales, marketing, and creative work.</p>
           <div className="cta-actions">
-            <Link href="#waitlist" className="btn btn-primary">Join the Waitlist</Link>
+            <Link href="#waitlist" className="btn btn-primary">Add to Waitlist</Link>
             <a href="mailto:contact@nakamaai.co" className="btn btn-secondary">Contact Sales</a>
           </div>
         </div>

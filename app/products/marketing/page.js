@@ -50,7 +50,7 @@ export default function NakamaMarketingPage() {
               </ul>
               <div className="product-page-waitlist">
                 <p>Join the Nakama Marketing waitlist and get first access to launch features.</p>
-                <Link href="/#waitlist" className="btn btn-primary">Join Waitlist</Link>
+                <Link href="/#waitlist" className="btn btn-primary">Add to Waitlist</Link>
               </div>
             </div>
           </div>
